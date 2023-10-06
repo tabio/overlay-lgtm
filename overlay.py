@@ -23,7 +23,7 @@ for image_name in target_images:
     fontsize = int(image_w / 7) # fontサイズは画像の幅に合わせて調整
 
     # find /Library/Fonts/ で利用できるfontを探す
-    font = ImageFont.truetype('/Library/Fonts//Arial Unicode.ttf', size=fontsize)
+    font = ImageFont.truetype('/Library/Fonts/Arial Unicode.ttf', size=fontsize)
 
     font_w, font_h = draw.textsize(text, font=font)
 
